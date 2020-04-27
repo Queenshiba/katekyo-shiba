@@ -13,12 +13,13 @@ body {
 
 a {
     color: #000;
+    text-decoration: none;
 }
 
 /* header */
 
 .header {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, .5);
     position: fixed;
     width: 100%;
     z-index: 2;
@@ -29,18 +30,19 @@ a {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, .4);
 }
 
 .header li a {
     display: block;
     padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
+    /* border-right: 1px solid #f4f4f4; */
     text-decoration: none;
+    color: white;
 }
 
 .header li a:hover, .header .menu-btn:hover {
-    background-color: #f4f4f4;
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .header .logo {
@@ -68,10 +70,11 @@ a {
     padding: 28px 20px;
     position: relative;
     user-select: none;
+    float: right;
 }
 
 .header .menu-icon .navicon {
-    background: #333;
+    background: white;
     display: block;
     height: 2px;
     position: relative;
@@ -80,7 +83,7 @@ a {
 }
 
 .header .menu-icon .navicon:before, .header .menu-icon .navicon:after {
-    background: #333;
+    background: white;
     content: '';
     display: block;
     height: 100%;
@@ -149,10 +152,36 @@ a {
     /* background: yellowgreen; */
     background-size: auto 100%;
     background-repeat: no-repeat;
-    border-radius: 0 0 0 100px;;
-    box-shadow: -5px 9px 8px 0 rgba(0, 0, 0, .1);
+    border-radius: 0 0 0 100px;
+    box-shadow: -5px 9px 8px 0 rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
 
+.title-LP {
+    background: rgba(0, 0, 0, .5);
+    box-shadow: 0px -1px 75px 30px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+/* message */
+.message-container {
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+margin: 15% 0;
+}
+.message-container h2{
+    font-size: 1.2em;
+}
+.message-container p{
+    font-size: smaller;
 }
 
 /* contents under landing page */
@@ -165,7 +194,7 @@ a {
 }
 
 .contents h1 {
-    padding: 80px 0 0 0;
+    padding: 10px 0 0 0;
 }
 
 .underline-contents {
@@ -182,9 +211,33 @@ a {
     height: 20%;
 }
 
-#service img {
-    height: auto;
+#imgbox {
     width: 45%;
+    height: 100%;
+    /* background-size: auto 100%;
+    background-repeat: no-repeat; */
+}
+
+.img-what {
+    background: #DAB79A;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url(/img/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg);
+}
+
+.img-who {
+    background: #F3E9F2;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    margin-left: 5%;
+    background-image: url(/img/matteo-vistocco-XlgRO3TSi5k-unsplash.jpg);
+}
+
+.img-how {
+    background: #554F4C;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-image: url(/img/start-digital-HVB9zyszgZQ-unsplash.jpg);
 }
 
 #service-textBox {
@@ -222,6 +275,18 @@ h3 {
     flex-direction: column;
 }
 
+#service-text-bottom a {
+    /* background: palegreen; */
+    padding: 5px;
+    border: 1px solid black;
+}
+
+#service-text-bottom a:hover {
+    background: black;
+    color: white;
+    /* border: 1px solid black; */
+}
+
 .contents-left-img-textBox-bottom .contents-right-img-textBox-bottom, h3 {
     padding: 0 0 0 10%;
 }
@@ -229,19 +294,33 @@ h3 {
 #service-text-bottom a {
     margin-left: auto;
 }
+
 .email-btn {
     margin: 15%;
-    background: greenyellow;
+    background: gray;
     width: 200px;
     height: 50px;
     line-height: 50px;
     text-align: center;
+    color: white;
 }
+
+.email-btn a {
+    color: white;
+}
+
 footer {
     height: 20vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: gray;
+    background: #141517;
+    color: white;
     width: 100%;
+    
+}
+footer a {
+    color: white;
+    text-decoration: underline;
 }

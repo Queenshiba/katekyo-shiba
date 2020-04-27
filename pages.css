@@ -27,7 +27,7 @@
     top: -20%;
 }
 #top-img-how {
-    background-image: url(/img/avel-chuklanov-DUmFLtMeAbQ-unsplash.jpg);
+    background-image: url(/img/start-digital-HVB9zyszgZQ-unsplash.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     position: fixed;
@@ -63,7 +63,7 @@
     justify-content: center;
     /* align-items: center; */
     margin: 5% 0;
-    border: 1px solid red;
+    border: 1px solid black;
     padding: 10px;
 }
 .link-container h3{
@@ -71,11 +71,27 @@
 }
 .link-container a{
     padding: 0 0 0 20px;
+    color: gray;
 }
-.topic-title {
-    margin: 0 0 0 10%;
-}
+
 .textbox {
     width: 85%;
     margin: 5% 0;
+    position: relative;
+}
+.footer {
+    margin: 20% 0 0 0;
+    height: 150px;
+    width: 100%;
+    background-color: #524C4B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer a {
+color: white;
+
+}
+#footer-what{
+    background-color: #E5BB93;
 }
