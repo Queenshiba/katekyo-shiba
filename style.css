@@ -354,7 +354,9 @@ h3 {
     text-align: center;
     color: white;
 }
-
+.email-btn p{
+    color: black;
+}
 .email-btn a {
     color: white;
 }
