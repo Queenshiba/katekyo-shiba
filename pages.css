@@ -42,6 +42,27 @@
     box-shadow:  1px -11px 55px -8px rgba(0,0,0,0.23);
 
 }
+
+
+@media (min-width: 393px) {
+    .textbox-container {
+        border-radius: 90px 0 0 0 ;
+        top: 50%;
+    }
+    #top-img-what {
+        background-size: 100%;
+        height: 500px
+    }
+    #top-img-who {
+        background-image: url(/img/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg);
+        top: 0%;
+        background-size: 100%;
+    } 
+}
+
+
+
+
 .title-container {
     align-self: start;
     margin: 15% 0 0 10%;
@@ -71,6 +92,16 @@
     padding: 0 0 0 20px;
     color: gray;
 }
+
+
+@media (min-width: 393px) {
+    .title-container {
+        margin: 10% 0 0 5%;
+    }
+}
+
+
+
 
 .textbox {
     width: 85%;
