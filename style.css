@@ -156,7 +156,7 @@ a {
 .m-landingPage {
     height: 80vh;
     width: 100%;
-    background-image: url(/img/olena-sergienko-dIMJWLx1YbE-unsplash.jpg);
+    background-image: url(./img/olena-sergienko-dIMJWLx1YbE-unsplash.jpg);
     /* background: yellowgreen; */
     background-size: auto 100%;
     background-repeat: no-repeat;
@@ -181,7 +181,7 @@ a {
 @media (min-width: 393px) {
     .m-landingPage {
         background-size: 100% auto ;
-        /* background-image: url(/img/andrew-neel-cckf4TsHAuw-unsplash.jpg); */
+        /* background-image: url(./img/andrew-neel-cckf4TsHAuw-unsplash.jpg); */
     }
 }
 
@@ -249,7 +249,7 @@ margin: 15% 0;
     background: #DAB79A;
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-image: url(/img/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg);
+    background-image: url(./img/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg);
 }
 
 .img-who {
@@ -257,14 +257,14 @@ margin: 15% 0;
     background-size: 100% auto;
     background-repeat: no-repeat;
     margin-left: 5%;
-    background-image: url(/img/matteo-vistocco-XlgRO3TSi5k-unsplash.jpg);
+    background-image: url(./img/matteo-vistocco-XlgRO3TSi5k-unsplash.jpg);
 }
 
 .img-how {
     background: #554F4C;
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-image: url(/img/start-digital-HVB9zyszgZQ-unsplash.jpg);
+    background-image: url(./img/start-digital-HVB9zyszgZQ-unsplash.jpg);
 }
 
 #service-textBox {

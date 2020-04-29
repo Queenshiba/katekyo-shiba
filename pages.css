@@ -12,20 +12,20 @@
 }
 
 #top-img-what {
-    background-image: url(/img/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg);
+    background-image: url(./img/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     position: fixed;
 }
 #top-img-who {
-    background-image: url(/img/matteo-vistocco-XlgRO3TSi5k-unsplash.jpg);
+    background-image: url(./img/matteo-vistocco-XlgRO3TSi5k-unsplash.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     position: fixed;
     top: -20%;
 }
 #top-img-how {
-    background-image: url(/img/start-digital-HVB9zyszgZQ-unsplash.jpg);
+    background-image: url(./img/start-digital-HVB9zyszgZQ-unsplash.jpg);
     background-size: 100% auto;
     background-repeat: no-repeat;
     position: fixed;
@@ -54,7 +54,7 @@
         height: 500px
     }
     #top-img-who {
-        background-image: url(/img/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg);
+        background-image: url(./img/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg);
         top: 0%;
         background-size: 100%;
     } 
