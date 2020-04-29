@@ -1,0 +1,24 @@
+{
+  "name": "katekyo-shiba",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Queenshiba/katekyo-shiba.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Queenshiba/katekyo-shiba/issues"
+  },
+  "homepage": "https://github.com/Queenshiba/katekyo-shiba#readme"
+}
