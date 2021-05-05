@@ -3,50 +3,43 @@
     margin: 0;
 }
 
-
-
-.top-image {
+.top-image img {
     width: 100%;
-    height: 60vh;
+    /* height: 60vh; */
     position: relative;
 }
 
-#top-img-what {
-    background-image: url(./img/aleks-dorohovich-nJdwUHmaY8A-unsplash.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    position: fixed;
-}
-#top-img-who {
-    background-image: url(./img/matteo-vistocco-XlgRO3TSi5k-unsplash.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    position: fixed;
-    top: -20%;
-}
-#top-img-how {
-    background-image: url(./img/start-digital-HVB9zyszgZQ-unsplash.jpg);
-    background-size: 100% auto;
-    background-repeat: no-repeat;
-    position: fixed;
+/* #imgbox > img {
+    height: 100px;
+} */
 
+#top-img-what {
+    position: fixed;
 }
+
+#top-img-who {
+    position: fixed;
+    /* top: -20%; */
+}
+
+#top-img-how {
+    position: fixed;
+}
+
 .textbox-container {
-    border-radius: 80px 0 0 0 ;
+    border-radius: 80px 0 0 0;
     background: white;
     position: absolute;
     top: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow:  1px -11px 55px -8px rgba(0,0,0,0.23);
-
+    box-shadow: 1px -11px 55px -8px rgba(0, 0, 0, 0.23);
 }
-
 
 @media (min-width: 393px) {
     .textbox-container {
-        border-radius: 90px 0 0 0 ;
+        border-radius: 90px 0 0 0;
         top: 50%;
     }
     #top-img-what {
@@ -57,24 +50,24 @@
         background-image: url(./img/denys-nevozhai-z0nVqfrOqWA-unsplash.jpg);
         top: 0%;
         background-size: 100%;
-    } 
+    }
 }
-
-
-
 
 .title-container {
     align-self: start;
     margin: 15% 0 0 10%;
 }
-.title-container h3{
+
+.title-container h3 {
     border-left-style: solid;
     border-left-color: black;
     padding: 0 0 0 10px;
 }
-.title-container h1{
+
+.title-container h1 {
     padding: 0 0 0 15px;
 }
+
 .link-container {
     width: 60%;
     display: flex;
@@ -85,14 +78,15 @@
     border: 1px solid black;
     padding: 10px;
 }
-.link-container h3{
+
+.link-container h3 {
     padding: 0 0 0 5px;
 }
-.link-container a{
+
+.link-container a {
     padding: 0 0 0 20px;
     color: gray;
 }
-
 
 @media (min-width: 393px) {
     .title-container {
@@ -100,14 +94,12 @@
     }
 }
 
-
-
-
 .textbox {
     width: 85%;
     margin: 5% 0;
     position: relative;
 }
+
 .footer {
     margin: 20% 0 0 0;
     height: 150px;
@@ -117,10 +109,11 @@
     align-items: center;
     justify-content: center;
 }
-.footer a {
-color: white;
 
+.footer a {
+    color: white;
 }
-#footer-what{
+
+#footer-what {
     background-color: #E5BB93;
 }
